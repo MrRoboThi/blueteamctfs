@@ -81,7 +81,7 @@ Indicador de Comprometimento (IoC): O malware se comunica com o host de C2 cp8nl
  
   Com esse comando foi possível encontrar o processo do sistema que está comprometido e seu PID.
   # Comando de confirmação da Conexão de Rede:
-  python3 vol.py -f Lockdown-memory.vmem windows.netscan
+  python3 vol.py -f memdump.mem windows.netscan
 
   Com esse comando foi possível confirmar que o processo encontrado realmente conversava com o IP atacante. 
 ---
